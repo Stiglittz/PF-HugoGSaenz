@@ -1,0 +1,19 @@
+main {
+    padding: 30px 30px 0 30px;
+}
+
+.description {
+    @include fontfamily;
+    font-size:map-get($tFuentes, mediana);
+    font-weight: 700;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: rgb(34, 34, 34);
+    -webkit-text-stroke: .5px $primary;
+}
+    
+.hero {
+    width: 70%;
+    margin-left: 15%;
+}

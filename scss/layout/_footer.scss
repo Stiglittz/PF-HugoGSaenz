@@ -1,0 +1,21 @@
+.footerVanilla {
+    width: 100%;
+    background-color: $secondary;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px 10px 15px;
+    margin-top: auto;
+}
+
+.contact {
+    font-size: map-get($tFuentes, mediana);
+    font-weight: bold;
+    color: $primary;
+}
+
+.copyright {
+    @include fontfamily;
+    font-size: map-get($tFuentes, pequeña);
+    font-weight: 300;
+    color: $primary;
+}
